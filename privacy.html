@@ -40,8 +40,9 @@
 
       <div class="placeholder">
         <strong>Importante:</strong> esta Política reflete as informações
-        fornecidas até agora. Confirme os itens ainda pendentes sobre dados
-        recebidos, banco de dados, retenção e exclusão antes de divulgar.
+        fornecidas pelo responsável pelo projeto. Confirme se a implementação e
+        as políticas atuais do Discord e da Discloud correspondem a esta
+        descrição.
       </div>
 
       <h2>1. Quem somos</h2>
@@ -56,10 +57,10 @@
       <p>
         Para funcionar em vários servidores, o bot utiliza informações e
         configurações associadas a cada servidor. Cada servidor define seu
-        próprio canal de logs. Segundo o responsável pelo projeto, o banco de
-        dados guarda somente informações dos servidores. Ao processar comandos,
-        o bot também recebe os dados de interação enviados pelo Discord; isso
-        não significa, por si só, que esses dados sejam persistidos no banco.
+        próprio canal de logs. O banco SQLite guarda somente essas configurações
+        dos servidores; o conteúdo das mensagens de log não é armazenado nesse
+        banco. Ao processar comandos, o bot também recebe os dados de interação
+        enviados pelo Discord, necessários para responder às solicitações.
       </p>
 
       <h2>3. Finalidades</h2>
@@ -72,23 +73,21 @@
 
       <h2>4. Armazenamento e retenção</h2>
       <p>
-        O banco de dados guarda informações associadas aos servidores e às
-        configurações necessárias ao funcionamento multisservidor, incluindo o
-        canal de logs definido por cada servidor. O bot é hospedado na Discloud,
-        mas ainda é necessário confirmar onde o banco de dados fica hospedado,
-        por quanto tempo essas configurações são mantidas e como são excluídas,
-        inclusive quando o bot é removido de um servidor.
+        O banco SQLite fica hospedado na Discloud e guarda as configurações de
+        cada servidor, incluindo o canal de logs definido por ele. Essas
+        configurações são mantidas sem prazo automático de expiração. O bot não
+        oferece uma consulta dessas configurações; pedidos de exclusão são
+        tratados manualmente pelo contato informado nesta Política.
       </p>
 
       <h2>5. Compartilhamento</h2>
       <p>
-        O bot é hospedado na Discloud, que fornece a infraestrutura para sua
-        execução e pode processar os dados necessários à prestação desse
-        serviço. Os registros enviados pelo bot são direcionados aos canais de
-        logs configurados por cada servidor e ficam sujeitos às regras e à
-        retenção do Discord e dos administradores desses servidores. Se o banco
-        de dados usar um provedor diferente da Discloud, esse provedor também
-        deve ser identificado nesta Política.
+        A Discloud fornece a hospedagem do bot e do banco SQLite e pode processar
+        os dados necessários à execução do serviço, conforme suas próprias
+        políticas. O conteúdo dos registros não é guardado pelo bot no banco;
+        quando enviado aos canais de logs configurados, fica sujeito às regras
+        do Discord e às configurações de retenção dos administradores de cada
+        servidor.
       </p>
 
       <h2>6. Segurança</h2>

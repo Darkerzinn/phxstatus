@@ -8,9 +8,8 @@
 - `logophxstatus.png`: logo exibida na barra de navegação
 
 ## Antes de divulgar
-1. Confirme onde o banco de dados é hospedado, por quanto tempo as configurações dos servidores são mantidas e como são excluídas, inclusive ao remover o bot.
-2. Revise se o bot persiste dados recebidos nos comandos ou o conteúdo dos logs enviados aos canais configurados.
-3. Confirme que a forma de monitoramento respeita os termos e as permissões dos serviços monitorados.
+1. Confirme que o código do bot e as políticas atuais da Discloud e do Discord correspondem à descrição da Política de Privacidade.
+2. Confirme que a forma de monitoramento respeita os termos e as permissões dos serviços monitorados.
 
 ## GitHub Pages
 - Repositório: https://github.com/Darkerzinn/phxstatus
